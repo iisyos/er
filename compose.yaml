@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  chat-client:
+    build: ./client
+    volumes:
+      - ./client:/code
+    ports:
+      - "8000:8000"
+# api以下を起動する
+  chat-api:
+    build: ./api
+    volumes:
+      - ./api:/code
+    ports:
+      - "3000:3000"
