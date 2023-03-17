@@ -6,4 +6,4 @@ RUN npm install --global --unsafe-perm @nestjs/cli
 
 COPY . .
 
-CMD "sh" "-c" "npm install && npm run start"
+CMD "sh" "-c" "npm install"
