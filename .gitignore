@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-client/node_modules
-api/node_modules
-api/dist
+node_modules
+dist
+var
+.env
